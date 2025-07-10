@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-toastify/dist/ReactToastify.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #111827;
+  color: #f9fafb;
+  line-height: 1.5;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* React Toastify Custom Styles */
+.Toastify__toast {
+  background-color: #1f2937 !important;
+  border: 1px solid #374151 !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+  min-height: 48px !important;
+  padding: 12px 16px !important;
+}
+
+.Toastify__toast-body {
+  color: #f9fafb !important;
+  font-weight: 500 !important;
+}
+
+.Toastify__progress-bar {
+  background: linear-gradient(90deg, #8b5cf6, #ec4899) !important;
+}
+
+.Toastify__close-button {
+  color: #9ca3af !important;
+}
+
+.Toastify__close-button:hover {
+  color: #f9fafb !important;
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(31, 41, 55, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Kanban board scrollbar */
+.kanban-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.kanban-scroll::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+.kanban-scroll::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 4px;
+}
+
+/* Timeline drag styles */
+.timeline-deal {
+  cursor: move;
+  user-select: none;
+}
+
+.timeline-deal:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-deal.dragging {
+  opacity: 0.8;
+  transform: rotate(5deg);
+}
+
+/* Resize handle */
+.resize-handle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 8px;
+  height: 100%;
+  background: transparent;
+  cursor: col-resize;
+  z-index: 10;
+}
+
+.resize-handle:hover {
+  background: rgba(139, 92, 246, 0.3);
+}
+
+/* Performance animations */
+@keyframes pulse-success {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+.pulse-success {
+  animation: pulse-success 2s infinite;
+}
+
+/* Custom form styles */
+.form-floating {
+  position: relative;
+}
+
+.form-floating input:focus + label,
+.form-floating input:not(:placeholder-shown) + label {
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+  color: #8b5cf6;
+}
+
+.form-floating label {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  color: #9ca3af;
+  transition: all 0.2s ease;
+  pointer-events: none;
+  transform-origin: 0 0;
+}
+
+/* Status badges */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.status-new {
+  background: rgba(59, 130, 246, 0.1);
+  color: #3b82f6;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.status-contacted {
+  background: rgba(139, 92, 246, 0.1);
+  color: #8b5cf6;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.status-qualified {
+  background: rgba(16, 185, 129, 0.1);
+  color: #10b981;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.status-proposal {
+  background: rgba(245, 158, 11, 0.1);
+  color: #f59e0b;
+  border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+.status-closed {
+  background: rgba(34, 197, 94, 0.1);
+  color: #22c55e;
+  border: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+.status-lost {
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}

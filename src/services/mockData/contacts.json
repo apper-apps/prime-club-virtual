@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "name": "John Smith",
+    "email": "john.smith@techcorp.com",
+    "company": "TechCorp Solutions",
+    "status": "new",
+    "assignedRep": "Sarah Johnson",
+    "tags": ["enterprise", "software"],
+    "notes": "Interested in our premium package",
+    "createdAt": "2024-01-15",
+    "lastContacted": "2024-01-20"
+  },
+  {
+    "Id": 2,
+    "name": "Emma Wilson",
+    "email": "emma.wilson@innovateplus.com",
+    "company": "InnovatePlus Inc",
+    "status": "contacted",
+    "assignedRep": "Mike Chen",
+    "tags": ["startup", "tech"],
+    "notes": "Follow up scheduled for next week",
+    "createdAt": "2024-01-18",
+    "lastContacted": "2024-01-22"
+  },
+  {
+    "Id": 3,
+    "name": "Michael Brown",
+    "email": "m.brown@globalventures.com",
+    "company": "Global Ventures",
+    "status": "qualified",
+    "assignedRep": "Emily Rodriguez",
+    "tags": ["finance", "large-scale"],
+    "notes": "Budget confirmed, moving to proposal stage",
+    "createdAt": "2024-01-10",
+    "lastContacted": "2024-01-25"
+  },
+  {
+    "Id": 4,
+    "name": "Sarah Davis",
+    "email": "sarah.davis@creativestudios.com",
+    "company": "Creative Studios",
+    "status": "proposal",
+    "assignedRep": "David Kim",
+    "tags": ["creative", "media"],
+    "notes": "Proposal sent, awaiting response",
+    "createdAt": "2024-01-12",
+    "lastContacted": "2024-01-23"
+  },
+  {
+    "Id": 5,
+    "name": "Robert Johnson",
+    "email": "robert.johnson@healthtech.com",
+    "company": "HealthTech Solutions",
+    "status": "closed",
+    "assignedRep": "Lisa Wang",
+    "tags": ["healthcare", "compliance"],
+    "notes": "Deal successfully closed",
+    "createdAt": "2024-01-05",
+    "lastContacted": "2024-01-24"
+  },
+  {
+    "Id": 6,
+    "name": "Jennifer Lee",
+    "email": "j.lee@ecommercepro.com",
+    "company": "EcommercePro",
+    "status": "lost",
+    "assignedRep": "Sarah Johnson",
+    "tags": ["e-commerce", "retail"],
+    "notes": "Decided to go with competitor",
+    "createdAt": "2024-01-08",
+    "lastContacted": "2024-01-21"
+  },
+  {
+    "Id": 7,
+    "name": "David Martinez",
+    "email": "david.martinez@financetech.com",
+    "company": "FinanceTech Corp",
+    "status": "contacted",
+    "assignedRep": "Mike Chen",
+    "tags": ["fintech", "banking"],
+    "notes": "Interested in demo next week",
+    "createdAt": "2024-01-14",
+    "lastContacted": "2024-01-26"
+  },
+  {
+    "Id": 8,
+    "name": "Lisa Anderson",
+    "email": "lisa.anderson@edutech.com",
+    "company": "EduTech Solutions",
+    "status": "new",
+    "assignedRep": "Emily Rodriguez",
+    "tags": ["education", "saas"],
+    "notes": "Initial contact made",
+    "createdAt": "2024-01-16",
+    "lastContacted": null
+  },
+  {
+    "Id": 9,
+    "name": "Mark Thompson",
+    "email": "mark.thompson@retailmax.com",
+    "company": "RetailMax",
+    "status": "qualified",
+    "assignedRep": "David Kim",
+    "tags": ["retail", "pos"],
+    "notes": "Needs custom integration",
+    "createdAt": "2024-01-11",
+    "lastContacted": "2024-01-27"
+  },
+  {
+    "Id": 10,
+    "name": "Amanda White",
+    "email": "amanda.white@logisticspro.com",
+    "company": "LogisticsPro",
+    "status": "proposal",
+    "assignedRep": "Lisa Wang",
+    "tags": ["logistics", "supply-chain"],
+    "notes": "Proposal under review",
+    "createdAt": "2024-01-09",
+    "lastContacted": "2024-01-28"
+  }
+]

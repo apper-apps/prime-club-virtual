@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 1,
+    "name": "Sarah Johnson",
+    "leadsContacted": 145,
+    "meetingsBooked": 32,
+    "dealsClosed": 18,
+    "revenue": 1250000,
+    "avatar": "SJ"
+  },
+  {
+    "Id": 2,
+    "name": "Mike Chen",
+    "leadsContacted": 132,
+    "meetingsBooked": 28,
+    "dealsClosed": 15,
+    "revenue": 980000,
+    "avatar": "MC"
+  },
+  {
+    "Id": 3,
+    "name": "Emily Rodriguez",
+    "leadsContacted": 156,
+    "meetingsBooked": 35,
+    "dealsClosed": 22,
+    "revenue": 1450000,
+    "avatar": "ER"
+  },
+  {
+    "Id": 4,
+    "name": "David Kim",
+    "leadsContacted": 128,
+    "meetingsBooked": 25,
+    "dealsClosed": 12,
+    "revenue": 750000,
+    "avatar": "DK"
+  },
+  {
+    "Id": 5,
+    "name": "Lisa Wang",
+    "leadsContacted": 142,
+    "meetingsBooked": 30,
+    "dealsClosed": 16,
+    "revenue": 1120000,
+    "avatar": "LW"
+  }
+]
